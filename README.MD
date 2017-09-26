@@ -2,8 +2,8 @@
 Diese Software wurde zur Steuerung eines Modell-Turmdrehkrans entworfen. Sie ka$
 
 ## Setup
-Um diese Software zu installieren wird ein Raspberry der zweiten oder dritten G$
-Die Software würde auch auf einem Raspberry erster Generation laufen, jedoch is$
+Um diese Software zu installieren wird ein Raspberry der zweiten oder dritten Generation benötigt.
+Die Software würde auch auf einem Raspberry erster Generation laufen, jedoch ist auf diesen Geräten die Anzahl der verfügbaren GPIO-Pins zu niedrig.
 
 Zunächst müssen auf dem Raspberry Pi die Abhängigkeiten dieses Projekts befriedigt werden:
 ```
@@ -47,4 +47,3 @@ of Applied Sciences.
 Autoren: 
 * Dominik Erb
 * Markus Jungbluth (@markusju)
-
