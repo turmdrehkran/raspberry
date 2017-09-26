@@ -28,7 +28,7 @@ setup(
     long_description=long_description,
 
     # The project's main homepage.
-    url='https://github.com/markusju/flowbroker',
+    url='https://github.com/turmdrehkran/raspberry',
 
     # Author details
     author='Markus Jungbluth, Domink Erb',
