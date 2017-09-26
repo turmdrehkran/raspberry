@@ -42,6 +42,22 @@ This software was created as part of the course 'Software Development for Commun
 'Computer Science and Communication Systems' at htw saar Saarland University
 of Applied Sciences.
 ```
+## Bluetooth-Konfiguration
+Damit sich der HigherLevelController mit dem Controller verbinden kann, müssen beide Geräte zuvor ein Bluetooth-Pairing durchführen.
+Um dies durchzuführen muss folgender Befehl auf dem Hardware-Controller ausgeführt werden:
+
+```
+$ bluetoothctl 
+[NEW] Controller 00:1A:7D:DE:AD:00 pi [default]
+[bluetooth]# agent on
+[bluetooth]# pairable on
+[bluetooth]# discoverable on
+...
+Pin-Eingabe
+```
+Sobald sich der Client mit dem Controller verbindet muss eine PIN eingebene werden. Die Bluetooth-Konsole fordert dann dazu auf.
+Sobald das Pairing abgeschlossen ist, verbinden sich Controller und HigherLevelController jedes mal automatisch.
+
 ## Pin-Belegung
 Alle Belegungsangaben beziehen sich auf die `BOARD` Nummerierung des Raspberry Pi 2 und 3.
 ### Inputs
