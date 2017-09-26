@@ -1,0 +1,3 @@
+
+class TurmdrehkranException(Exception):
+    pass

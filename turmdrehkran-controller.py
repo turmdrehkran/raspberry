@@ -1,0 +1,3 @@
+import turmdrehkran
+
+turmdrehkran.main()
