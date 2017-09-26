@@ -1,5 +1,5 @@
 # Controller Software für die SEK Turmdrehkran Hardware
-Diese Software wurde zur Steuerung eines Modell-Turmdrehkrans entworfen. Sie ka$
+Diese Software wurde zur Steuerung eines Modell-Turmdrehkrans entworfen. Sie dient der Ansteuerung von 3 Schrittmotoren, der Verarbeitung von Eingaben einer Handsteuerung und der Annahme von Protokoll-Befehlen über eine Kommunikationsschnittstelle. Über diese Schnittstelle können Protokoll-Nachrichten empfangen werden, die als Ergebnis einer Verarbeitung einer DSL-Baubeschreinungsprache auswerten.
 
 ## Setup
 Um diese Software zu installieren wird ein Raspberry der zweiten oder dritten Generation benötigt.
