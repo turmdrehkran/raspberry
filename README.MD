@@ -13,8 +13,7 @@ Anschließend kann über den PIP-Paketmanager die `turmdrehkran-app` installiert
 ```
 $ pip install https://github.com/turmdrehkran/raspberry/archive/master.tar.gz
 ```
-
-## Usage
+## Benutzung
 `turmdrehkran-app` bietet zwei Einstiegspunkte, die als Befehl auf der Shell ausgeführt werden können
 * `turmdrehkran-controller`
     * Steuerungssoftware für die Kran-Hardware 
@@ -43,6 +42,34 @@ This software was created as part of the course 'Software Development for Commun
 'Computer Science and Communication Systems' at htw saar Saarland University
 of Applied Sciences.
 ```
+## Pin-Belegung
+Alle Belegungsangaben beziehen sich auf die `BOARD` Nummerierung des Raspberry Pi 2 und 3.
+### Inputs
+| Pin | Beschreibung |
+| --- | --- |
+| `35` | Lichtschranke 1 |
+| `36` | Lichtschranke 2 |
+| `32` | Lichtschranke 3  |
+| `33` | Lichtschranke 4  |
+| `22` | Handsteuerung Oben  |
+| `23` | Handsteuerung Unten  |
+| `19` | Handsteuerung Links |
+| `21` | Handsteuerung Rechts  |
+| `24` | Handsteuerung Optional Oben  |
+| `26` | Handsteuerung Optional Unten  |
+| `29` | Handsteuerung Optional Links  |
+| `31` | Handsteuerung Optional Rechts  |
+
+### Outputs
+| Pin | Beschreibung |
+| --- | --- |
+| `7` | Motor 1 Direction |
+| `8` | Motor 1 Steps (PWM) |
+| `11` | Motor 2 Direction |
+| `12` | Motor 2 Steps (PWM) |
+| `15` | Motor 3 Direction |
+| `16` | Motor 3 Steps (PWM) |
+| `40` | Connection LED |
 
 Autoren: 
 * Dominik Erb
