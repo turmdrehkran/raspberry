@@ -38,8 +38,8 @@ positional arguments:
 optional arguments:
   -h, --help       show this help message and exit
 
-This software was created as part of the course 'Software Development for Communication Networks' by Prof. Brocks  in the Master's program
-'Computer Science and Communication Systems' at htw saar Saarland University
+This software was created as part of the course 'Software Development for Communication Networks' by Prof. Brocks 
+as part of the Master's program 'Computer Science and Communication Systems' at htw saar Saarland University
 of Applied Sciences.
 ```
 Die Proxy Software kann ebenfalls über den Aufruf in der Shell gestartet werden:
