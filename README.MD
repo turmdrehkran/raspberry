@@ -42,6 +42,15 @@ This software was created as part of the course 'Software Development for Commun
 'Computer Science and Communication Systems' at htw saar Saarland University
 of Applied Sciences.
 ```
+Die Proxy Software kann ebenfalls über den Aufruf in der Shell gestartet werden:
+```
+$ turmdrehkran-bt-proxy
+Suche Controller...
+Suche Raspberry
+
+```
+Die Proxy-Software versucht zunächst den Raspberry und dann den Arduino zu finden. Findet er eines der beiden Geräte in diese Reihenfolge wartet er auf eine eingehende TCP-Verbindung auf Port `5010`. Sobald eine Verbindung zu diesem Port hergestellt ist, wird auch eine Verbindung über Bluetooth hergestellt.
+
 ## Bluetooth-Konfiguration
 Damit sich der HigherLevelController mit dem Controller verbinden kann, müssen beide Geräte zuvor ein Bluetooth-Pairing durchführen.
 Um dies durchzuführen muss folgender Befehl auf dem Hardware-Controller ausgeführt werden:
